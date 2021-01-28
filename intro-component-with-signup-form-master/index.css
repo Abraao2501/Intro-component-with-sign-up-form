@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+
+    background: url(/images/bg-intro-desktop.png); 
+    background-color: hsl(0, 100%, 74%);
+    background-repeat: no-repeat;
+
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+.text-container {
+    width: 50em;
+
+    color: #FFFFFF;
+}
+.text-container h1 {
+    line-height: 1.2em;
+    font-size: 2.5rem;
+    width: 10em
+}
+.text-container p {
+    font-size: 1.2rem;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+.form-container form {
+    width: 32rem;
+    height: 75vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    background: white;
+}
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
